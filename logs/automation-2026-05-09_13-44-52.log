@@ -1,0 +1,9 @@
+2026-05-09 13:44:52 DEBUG AuthTests:27 - ------------Debuging--------------
+2026-05-09 13:44:52 INFO  AuthTests:28 - ===== Setup Data Started =====
+2026-05-09 13:44:52 INFO  AuthTests:36 - Generated Email: admin
+2026-05-09 13:44:52 INFO  AuthTests:37 - Generated Password: password123
+2026-05-09 13:44:52 INFO  AuthTests:39 - ===== Setup Data Completed =====
+2026-05-09 13:44:52 INFO  AuthTests:45 - ************* Login User ***************
+2026-05-09 13:44:55 INFO  AuthTests:49 - Request sent for user login
+2026-05-09 13:44:55 INFO  AuthTests:52 - Validating response for user login.
+2026-05-09 13:44:56 INFO  AuthTests:57 - ************* User logged  Successfully and token successfully.***************

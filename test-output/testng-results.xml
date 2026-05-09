@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-09T15:01:12 BDT" name="Suite" finished-at="2026-05-09T15:01:25 BDT" duration-ms="12657">
+    <groups>
+    </groups>
+    <test started-at="2026-05-09T15:01:12 BDT" name="Test" finished-at="2026-05-09T15:01:25 BDT" duration-ms="12657">
+      <class name="api.tests.BookingTests">
+        <test-method is-config="true" signature="setup_data()[pri:0, instance:api.tests.BookingTests@68b32e3e]" started-at="2026-05-09T15:01:17 BDT" name="setup_data" finished-at="2026-05-09T15:01:18 BDT" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_data -->
+        <test-method signature="test_create_booking()[pri:1, instance:api.tests.BookingTests@68b32e3e]" started-at="2026-05-09T15:01:18 BDT" name="test_create_booking" finished-at="2026-05-09T15:01:20 BDT" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_create_booking -->
+        <test-method signature="test_read_booking_by_id()[pri:2, instance:api.tests.BookingTests@68b32e3e]" started-at="2026-05-09T15:01:20 BDT" name="test_read_booking_by_id" finished-at="2026-05-09T15:01:21 BDT" depends-on-methods="api.tests.BookingTests.test_create_booking" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_read_booking_by_id -->
+        <test-method signature="test_update_booking()[pri:3, instance:api.tests.BookingTests@68b32e3e]" started-at="2026-05-09T15:01:21 BDT" name="test_update_booking" finished-at="2026-05-09T15:01:23 BDT" depends-on-methods="api.tests.BookingTests.test_create_booking" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_booking -->
+        <test-method signature="test_delete_booking()[pri:4, instance:api.tests.BookingTests@68b32e3e]" started-at="2026-05-09T15:01:23 BDT" name="test_delete_booking" finished-at="2026-05-09T15:01:25 BDT" depends-on-methods="api.tests.BookingTests.test_create_booking" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_booking -->
+      </class> <!-- api.tests.BookingTests -->
+      <class name="api.tests.AuthTests">
+        <test-method is-config="true" signature="setup_data()[pri:0, instance:api.tests.AuthTests@177bea38]" started-at="2026-05-09T15:01:12 BDT" name="setup_data" finished-at="2026-05-09T15:01:13 BDT" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_data -->
+        <test-method signature="testLoginUser()[pri:1, instance:api.tests.AuthTests@177bea38]" started-at="2026-05-09T15:01:13 BDT" name="testLoginUser" finished-at="2026-05-09T15:01:16 BDT" duration-ms="3883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+      </class> <!-- api.tests.AuthTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

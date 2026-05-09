@@ -1,0 +1,38 @@
+2026-05-09 14:14:06 DEBUG AuthTests:27 - ------------Debuging--------------
+2026-05-09 14:14:06 INFO  AuthTests:28 - ===== Setup Data Started =====
+2026-05-09 14:14:06 INFO  AuthTests:36 - Generated Email: admin
+2026-05-09 14:14:06 INFO  AuthTests:37 - Generated Password: password123
+2026-05-09 14:14:06 INFO  AuthTests:39 - ===== Setup Data Completed =====
+2026-05-09 14:14:06 INFO  AuthTests:45 - ************* Login User ***************
+2026-05-09 14:14:09 INFO  AuthTests:49 - Request sent for user login
+2026-05-09 14:14:09 INFO  AuthTests:52 - Validating response for user login.
+2026-05-09 14:14:09 INFO  AuthTests:57 - ************* User logged  Successfully and token successfully.***************
+2026-05-09 14:14:09 INFO  AuthTests:64 - ************* Response Json validate successfully ***************
+2026-05-09 14:14:09 INFO  BookingTests:34 - ===== Booking Test Setup Started =====
+2026-05-09 14:14:11 INFO  BookingTests:59 - Payload Prepared for User: Omer Schowalter
+2026-05-09 14:14:11 INFO  BookingTests:60 - Total Price: 339
+2026-05-09 14:14:11 INFO  BookingTests:61 - ===== Booking Test Setup Completed =====
+2026-05-09 14:14:11 INFO  BookingTests:68 - ************* Create Booking Test Started *************
+2026-05-09 14:14:11 INFO  BookingTests:71 - Using Bearer Token: 6da08a926415c9c
+2026-05-09 14:14:13 INFO  BookingTests:75 - Create booking request sent
+2026-05-09 14:14:13 INFO  BookingTests:78 - Validating create booking response
+2026-05-09 14:14:13 INFO  BookingTests:83 - Booking Created Successfully
+2026-05-09 14:14:13 INFO  BookingTests:84 - Booking ID: 1544
+2026-05-09 14:14:13 INFO  BookingTests:85 - Booking Ref: null
+2026-05-09 14:14:13 INFO  BookingTests:87 - ************* Create Booking Test Completed *************
+2026-05-09 14:14:13 INFO  BookingTests:94 - ************* Read Booking By ID Test Started *************
+2026-05-09 14:14:13 INFO  BookingTests:97 - Using Bearer Token: 6da08a926415c9c
+2026-05-09 14:14:13 INFO  BookingTests:98 - Booking ID: 1544
+2026-05-09 14:14:14 INFO  BookingTests:102 - Read booking by ID request sent
+2026-05-09 14:14:14 INFO  BookingTests:105 - Validating response
+2026-05-09 14:14:14 INFO  BookingTests:109 - ************* Read Booking By ID Test Completed *************
+2026-05-09 14:14:14 INFO  BookingTests:116 - ************* Update Booking Test Started *************
+2026-05-09 14:14:14 INFO  BookingTests:124 - Updating Booking ID: 1544
+2026-05-09 14:14:14 INFO  BookingTests:125 - New Price to set: 799
+2026-05-09 14:14:16 INFO  BookingTests:130 - Update booking request sent
+2026-05-09 14:14:16 INFO  BookingTests:133 - Validating update response
+2026-05-09 14:14:16 INFO  BookingTests:146 - ************* Delete Booking Test Started *************
+2026-05-09 14:14:16 INFO  BookingTests:149 - Using Bearer Token: 6da08a926415c9c
+2026-05-09 14:14:16 INFO  BookingTests:150 - Booking ID to delete: 1544
+2026-05-09 14:14:17 INFO  BookingTests:154 - Delete booking request sent
+2026-05-09 14:14:17 INFO  BookingTests:157 - Validating delete response

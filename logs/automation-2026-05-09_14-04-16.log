@@ -1,0 +1,38 @@
+2026-05-09 14:04:16 DEBUG AuthTests:27 - ------------Debuging--------------
+2026-05-09 14:04:16 INFO  AuthTests:28 - ===== Setup Data Started =====
+2026-05-09 14:04:16 INFO  AuthTests:36 - Generated Email: admin
+2026-05-09 14:04:16 INFO  AuthTests:37 - Generated Password: password123
+2026-05-09 14:04:16 INFO  AuthTests:39 - ===== Setup Data Completed =====
+2026-05-09 14:04:16 INFO  AuthTests:45 - ************* Login User ***************
+2026-05-09 14:04:19 INFO  AuthTests:49 - Request sent for user login
+2026-05-09 14:04:19 INFO  AuthTests:52 - Validating response for user login.
+2026-05-09 14:04:19 INFO  AuthTests:57 - ************* User logged  Successfully and token successfully.***************
+2026-05-09 14:04:19 INFO  AuthTests:64 - ************* Response Json validate successfully ***************
+2026-05-09 14:04:19 INFO  BookingTests:33 - ===== Booking Test Setup Started =====
+2026-05-09 14:04:19 INFO  BookingTests:55 - Payload Prepared for User: Angelica Kutch
+2026-05-09 14:04:19 INFO  BookingTests:56 - Total Price: 364
+2026-05-09 14:04:19 INFO  BookingTests:57 - ===== Booking Test Setup Completed =====
+2026-05-09 14:04:19 INFO  BookingTests:64 - ************* Create Booking Test Started *************
+2026-05-09 14:04:19 INFO  BookingTests:67 - Using Bearer Token: null
+2026-05-09 14:04:21 INFO  BookingTests:71 - Create booking request sent
+2026-05-09 14:04:21 INFO  BookingTests:74 - Validating create booking response
+2026-05-09 14:04:21 INFO  BookingTests:79 - Booking Created Successfully
+2026-05-09 14:04:21 INFO  BookingTests:80 - Booking ID: 1261
+2026-05-09 14:04:21 INFO  BookingTests:81 - Booking Ref: null
+2026-05-09 14:04:21 INFO  BookingTests:83 - ************* Create Booking Test Completed *************
+2026-05-09 14:04:21 INFO  BookingTests:90 - ************* Read Booking By ID Test Started *************
+2026-05-09 14:04:21 INFO  BookingTests:93 - Using Bearer Token: null
+2026-05-09 14:04:21 INFO  BookingTests:94 - Booking ID: 1261
+2026-05-09 14:04:22 INFO  BookingTests:98 - Read booking by ID request sent
+2026-05-09 14:04:22 INFO  BookingTests:101 - Validating response
+2026-05-09 14:04:22 INFO  BookingTests:105 - ************* Read Booking By ID Test Completed *************
+2026-05-09 14:04:22 INFO  BookingTests:112 - ************* Update Booking Test Started *************
+2026-05-09 14:04:22 INFO  BookingTests:120 - Updating Booking ID: 1261
+2026-05-09 14:04:22 INFO  BookingTests:121 - New Price to set: 980
+2026-05-09 14:04:24 INFO  BookingTests:126 - Update booking request sent
+2026-05-09 14:04:24 INFO  BookingTests:129 - Validating update response
+2026-05-09 14:04:24 INFO  BookingTests:142 - ************* Delete Booking Test Started *************
+2026-05-09 14:04:24 INFO  BookingTests:145 - Using Bearer Token: null
+2026-05-09 14:04:24 INFO  BookingTests:146 - Booking ID to delete: 1261
+2026-05-09 14:04:25 INFO  BookingTests:150 - Delete booking request sent
+2026-05-09 14:04:25 INFO  BookingTests:153 - Validating delete response

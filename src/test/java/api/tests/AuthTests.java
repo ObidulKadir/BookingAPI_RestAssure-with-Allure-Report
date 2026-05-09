@@ -10,6 +10,8 @@ import com.github.javafaker.Faker;
 
 import api.endpoints.AuthEndpoints;
 import api.payload.Auth;
+import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
@@ -26,6 +28,10 @@ public class AuthTests {
 		logger = LogManager.getLogger(this.getClass());
 		logger.debug("------------Debuging--------------");
 		logger.info("===== Setup Data Started =====");
+		
+		   RestAssured.filters(
+	                new AllureRestAssured()
+	        );
 
 		faker = new Faker();
 		authPayload = new Auth();

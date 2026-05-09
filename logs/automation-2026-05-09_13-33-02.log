@@ -1,0 +1,9 @@
+2026-05-09 13:33:02 DEBUG AuthTests:27 - ------------Debuging--------------
+2026-05-09 13:33:02 INFO  AuthTests:28 - ===== Setup Data Started =====
+2026-05-09 13:33:02 INFO  AuthTests:38 - Generated Email: mindy.monahan@yahoo.com
+2026-05-09 13:33:02 INFO  AuthTests:39 - Generated Password: Rudy64.0
+2026-05-09 13:33:02 INFO  AuthTests:41 - ===== Setup Data Completed =====
+2026-05-09 13:33:02 INFO  AuthTests:47 - ************* Login User ***************
+2026-05-09 13:33:06 INFO  AuthTests:51 - Request sent for user login
+2026-05-09 13:33:06 INFO  AuthTests:54 - Validating response for user login.
+2026-05-09 13:33:06 INFO  AuthTests:58 - ************* User logged  Successfully and token successfully.***************
