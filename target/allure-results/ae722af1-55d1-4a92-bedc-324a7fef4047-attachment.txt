@@ -1,0 +1,1 @@
+Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null

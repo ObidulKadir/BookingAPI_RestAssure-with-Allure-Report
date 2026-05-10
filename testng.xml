@@ -3,17 +3,24 @@
 
 <suite name="Suite">
 
-    <listeners>
-        <listener class-name="api.utilities.AllureListener"/>
-    </listeners>
+	<listeners>
+		<listener class-name="api.utilities.AllureListener" />
+	</listeners>
 
-    <test name="Test">
+	<test name="Test">
 
-        <classes>
+		<!--
             <class name="api.tests.AuthTests"/>
             <class name="api.tests.BookingTests"/>
-        </classes>
+            
+        </classes>-->
+	</test>
+	<test name="DataDrivenTest">
+		<classes>
+			<class name="api.tests.DDAuthTests" />
+			<class name="api.tests.DDBookingTests" />
+		</classes>
 
-    </test>
+	</test>
 
 </suite>
