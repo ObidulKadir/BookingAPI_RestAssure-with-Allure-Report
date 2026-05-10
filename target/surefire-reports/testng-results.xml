@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="6" failed="21" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-11T00:35:51 BDT" name="Suite" finished-at="2026-05-11T00:36:34 BDT" duration-ms="42690">
+    <groups>
+    </groups>
+    <test started-at="2026-05-11T00:35:51 BDT" name="Test" finished-at="2026-05-11T00:35:51 BDT" duration-ms="21">
+    </test> <!-- Test -->
+    <test started-at="2026-05-11T00:35:52 BDT" name="DataDrivenTest" finished-at="2026-05-11T00:36:34 BDT" duration-ms="42537">
+      <class name="api.tests.DDBookingTests">
+        <test-method is-config="true" signature="setup_data()[pri:0, instance:api.tests.DDBookingTests@48e1f6c7]" started-at="2026-05-11T00:35:52 BDT" name="setup_data" finished-at="2026-05-11T00:35:59 BDT" duration-ms="7026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_data -->
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@48e1f6c7]" started-at="2026-05-11T00:35:59 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:36:06 BDT" duration-ms="6243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MD.BK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65454]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Breakfast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_booking_crud -->
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@48e1f6c7]" started-at="2026-05-11T00:36:06 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:36:12 BDT" duration-ms="6343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MD. Mahmud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahamed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-24]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-26]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Snacks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_booking_crud -->
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@48e1f6c7]" started-at="2026-05-11T00:36:12 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:36:18 BDT" duration-ms="6487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sabbir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CTO]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65455]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-27]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chips]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_booking_crud -->
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@48e1f6c7]" started-at="2026-05-11T00:36:18 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:36:25 BDT" duration-ms="6765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SUMAIYA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RIFAT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[544554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-26]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-28]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sweets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_booking_crud -->
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@48e1f6c7]" started-at="2026-05-11T00:36:25 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:36:32 BDT" duration-ms="6664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TURNY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RABBANI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-27]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-03-01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Dinner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_booking_crud -->
+      </class> <!-- api.tests.DDBookingTests -->
+      <class name="api.tests.DDAuthTests">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:35:55 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:35:59 BDT" duration-ms="4386" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid_user]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:35:59 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:01 BDT" duration-ms="1633" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:01 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:02 BDT" duration-ms="1585" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:02 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:04 BDT" duration-ms="1546" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin' OR '1'='1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:04 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:06 BDT" duration-ms="1653" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR 1=1--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' OR 1=1--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:06 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:07 BDT" duration-ms="1545" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin' AND 1=1--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin' AND 1=1--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:07 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:09 BDT" duration-ms="1649" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin' AND 1=2--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin' AND 1=2--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:09 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:11 BDT" duration-ms="1691" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin' OR SLEEP(5)--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin' OR SLEEP(5)--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:11 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:12 BDT" duration-ms="1595" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin'; WAITFOR DELAY '0:0:5'--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin'; WAITFOR DELAY '0:0:5'--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:12 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:14 BDT" duration-ms="1632" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA['--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:14 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:15 BDT" duration-ms="1671" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[--
+'#
+admin'--
+<script>alert(1)</script>
+'><script>alert(1)</script>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[--
+'#
+admin'--
+<script>alert(1)</script>
+'><script>alert(1)</script>]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:15 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:17 BDT" duration-ms="1627" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"$ne":null}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"$ne":null}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:17 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:19 BDT" duration-ms="1635" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"$gt":""}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"$gt":""}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:19 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:20 BDT" duration-ms="1625" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1 OR 1=1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1 OR 1=1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:20 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:22 BDT" duration-ms="1790" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1' OR '1'='1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:22 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:24 BDT" duration-ms="1724" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR 'a'='a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' OR 'a'='a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:24 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:26 BDT" duration-ms="1732" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' UNION SELECT NULL--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' UNION SELECT NULL--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:26 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:27 BDT" duration-ms="1699" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin' UNION SELECT NULL--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin' UNION SELECT NULL--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:27 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:29 BDT" duration-ms="1661" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR EXISTS(SELECT * FROM users)--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' OR EXISTS(SELECT * FROM users)--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:29 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:31 BDT" duration-ms="1657" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:31 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:32 BDT" duration-ms="1699" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['\"<>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA['\"<>]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["token"])
+    level: "error"
+    schema: {"loadingURI":"file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["token"]
+    missing: ["token"]
+
+  Actual: {"reason":"Bad credentials"}
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@23e84203]" started-at="2026-05-11T00:36:32 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:36:34 BDT" duration-ms="1727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+      </class> <!-- api.tests.DDAuthTests -->
+    </test> <!-- DataDrivenTest -->
+  </suite> <!-- Suite -->
+</testng-results>

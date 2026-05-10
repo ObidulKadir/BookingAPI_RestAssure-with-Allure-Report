@@ -1,0 +1,340 @@
+2026-05-11 00:47:49 INFO  DDBookingTests:30 - ===== Booking Test Setup Started =====
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:51 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:47:51 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:47:51 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:47:55 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:47:55 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:47:55 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:47:55 INFO  DDBookingTests:40 - Bearer Token Generated Successfully
+2026-05-11 00:47:55 INFO  DDBookingTests:42 - ===== Booking Test Setup Completed =====
+2026-05-11 00:47:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:47:56 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:47:56 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-05-11 00:47:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-05-11 00:47:56 INFO  DDBookingTests:59 - ========== BOOKING CRUD TEST STARTED ==========
+2026-05-11 00:47:56 INFO  DDBookingTests:82 - Payload Prepared Successfully
+2026-05-11 00:47:58 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:47:58 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:47:58 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:47:58 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:47:58 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:47:58 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:47:58 INFO  DDBookingTests:99 - Booking Created Successfully
+2026-05-11 00:47:58 INFO  DDBookingTests:100 - Booking ID: 3537
+2026-05-11 00:47:59 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:47:59 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:47:59 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:47:59 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:47:59 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:47:59 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:47:59 INFO  DDBookingTests:114 - Booking Read Successfully
+2026-05-11 00:48:01 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:01 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:01 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:01 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:01 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:01 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:01 INFO  DDBookingTests:138 - Booking Updated Successfully
+2026-05-11 00:48:02 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:02 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:03 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:03 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:03 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:03 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:03 INFO  DDBookingTests:152 - Booking Deleted Successfully
+2026-05-11 00:48:03 INFO  DDBookingTests:154 - ========== BOOKING CRUD TEST COMPLETED ==========
+2026-05-11 00:48:03 INFO  DDBookingTests:59 - ========== BOOKING CRUD TEST STARTED ==========
+2026-05-11 00:48:03 INFO  DDBookingTests:82 - Payload Prepared Successfully
+2026-05-11 00:48:04 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:04 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:04 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:04 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:04 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:04 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:04 INFO  DDBookingTests:99 - Booking Created Successfully
+2026-05-11 00:48:04 INFO  DDBookingTests:100 - Booking ID: 3589
+2026-05-11 00:48:06 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:06 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:06 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:06 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:06 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:06 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:06 INFO  DDBookingTests:114 - Booking Read Successfully
+2026-05-11 00:48:07 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:07 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:07 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:07 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:07 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:07 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:07 INFO  DDBookingTests:138 - Booking Updated Successfully
+2026-05-11 00:48:09 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:09 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:09 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:09 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:09 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:09 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:09 INFO  DDBookingTests:152 - Booking Deleted Successfully
+2026-05-11 00:48:09 INFO  DDBookingTests:154 - ========== BOOKING CRUD TEST COMPLETED ==========
+2026-05-11 00:48:09 INFO  DDBookingTests:59 - ========== BOOKING CRUD TEST STARTED ==========
+2026-05-11 00:48:09 INFO  DDBookingTests:82 - Payload Prepared Successfully
+2026-05-11 00:48:11 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:11 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:11 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:11 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:11 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:11 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:11 INFO  DDBookingTests:99 - Booking Created Successfully
+2026-05-11 00:48:11 INFO  DDBookingTests:100 - Booking ID: 3650
+2026-05-11 00:48:12 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:12 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:12 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:12 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:12 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:12 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:12 INFO  DDBookingTests:114 - Booking Read Successfully
+2026-05-11 00:48:14 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:14 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:14 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:14 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:14 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:14 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:14 INFO  DDBookingTests:138 - Booking Updated Successfully
+2026-05-11 00:48:15 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:15 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:15 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:15 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:15 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:15 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:16 INFO  DDBookingTests:152 - Booking Deleted Successfully
+2026-05-11 00:48:16 INFO  DDBookingTests:154 - ========== BOOKING CRUD TEST COMPLETED ==========
+2026-05-11 00:48:16 INFO  DDBookingTests:59 - ========== BOOKING CRUD TEST STARTED ==========
+2026-05-11 00:48:16 INFO  DDBookingTests:82 - Payload Prepared Successfully
+2026-05-11 00:48:17 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:17 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:17 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:17 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:17 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:17 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:17 INFO  DDBookingTests:99 - Booking Created Successfully
+2026-05-11 00:48:17 INFO  DDBookingTests:100 - Booking ID: 3704
+2026-05-11 00:48:19 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:19 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:19 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:19 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:19 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:19 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:19 INFO  DDBookingTests:114 - Booking Read Successfully
+2026-05-11 00:48:20 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:20 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:20 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:20 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:20 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:20 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:21 INFO  DDBookingTests:138 - Booking Updated Successfully
+2026-05-11 00:48:22 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:22 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:22 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:22 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:22 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:22 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:22 INFO  DDBookingTests:152 - Booking Deleted Successfully
+2026-05-11 00:48:22 INFO  DDBookingTests:154 - ========== BOOKING CRUD TEST COMPLETED ==========
+2026-05-11 00:48:22 INFO  DDBookingTests:59 - ========== BOOKING CRUD TEST STARTED ==========
+2026-05-11 00:48:22 INFO  DDBookingTests:82 - Payload Prepared Successfully
+2026-05-11 00:48:24 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:24 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:24 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:24 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:24 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:24 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:24 INFO  DDBookingTests:99 - Booking Created Successfully
+2026-05-11 00:48:24 INFO  DDBookingTests:100 - Booking ID: 3758
+2026-05-11 00:48:25 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:25 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:25 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:25 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:25 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:25 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:25 INFO  DDBookingTests:114 - Booking Read Successfully
+2026-05-11 00:48:27 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:27 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:27 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:27 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:27 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:27 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:27 INFO  DDBookingTests:138 - Booking Updated Successfully
+2026-05-11 00:48:29 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:29 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:29 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:29 DEBUG DDAuthTests:31 - ------------Debuging--------------
+2026-05-11 00:48:29 INFO  DDAuthTests:32 - ===== Setup Data Started =====
+2026-05-11 00:48:29 INFO  DDAuthTests:38 - ************* Login User ***************
+2026-05-11 00:48:29 INFO  DDBookingTests:152 - Booking Deleted Successfully
+2026-05-11 00:48:29 INFO  DDBookingTests:154 - ========== BOOKING CRUD TEST COMPLETED ==========
+2026-05-11 00:48:30 INFO  DDAuthTests:46 - Request sent for user login
+2026-05-11 00:48:30 INFO  DDAuthTests:49 - Validating response for user login.
+2026-05-11 00:48:30 INFO  DDAuthTests:54 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 00:48:30 INFO  DDAuthTests:61 - ************* Response Json validate successfully ***************

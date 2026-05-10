@@ -2,7 +2,6 @@ package api.tests;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -13,14 +12,19 @@ import api.payload.Bookingdates;
 import api.utilities.AuthUtil;
 import api.utilities.DataProviders;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
+import io.qameta.allure.restassured.AllureRestAssured;
+
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 public class DDBookingTests {
 
     static String bearer_token;
-
     public Logger logger;
 
+    // ================= SETUP =================
     @BeforeClass
     public void setup_data() {
 
@@ -28,20 +32,20 @@ public class DDBookingTests {
 
         logger.info("===== Booking Test Setup Started =====");
 
-        AuthUtil auth = new AuthUtil();
+        RestAssured.filters(new AllureRestAssured());
 
-        bearer_token = auth.getToken();
+        bearer_token = getToken();
 
         logger.info("Bearer Token Generated Successfully");
 
         logger.info("===== Booking Test Setup Completed =====");
     }
 
-    @Test(
-            priority = 1,
+    // ================= MAIN TEST =================
+    @Test(priority = 1,
             dataProvider = "BookingData",
-            dataProviderClass = DataProviders.class
-    )
+            dataProviderClass = DataProviders.class)
+    @Description("Full Booking CRUD flow: Create, Read, Update, Delete")
     public void test_booking_crud(
             String firstname,
             String lastname,
@@ -53,99 +57,122 @@ public class DDBookingTests {
 
         logger.info("========== BOOKING CRUD TEST STARTED ==========");
 
-        // ================= CREATE PAYLOAD =================
+        BookingPayload payload = createPayload(
+                firstname, lastname, totalprice,
+                depositpaid, checkin, checkout, additionalneeds
+        );
+
+        String bookingId = createBooking(payload);
+
+        readBooking(bookingId);
+
+        updateBooking(bookingId, payload, firstname, lastname, totalprice);
+
+        deleteBooking(bookingId);
+
+        logger.info("========== BOOKING CRUD TEST COMPLETED ==========");
+    }
+
+    // ================= TOKEN =================
+    @Step("Get Auth Token")
+    public String getToken() {
+        AuthUtil auth = new AuthUtil();
+        return auth.getToken();
+    }
+
+    // ================= CREATE PAYLOAD =================
+    @Step("Create Booking Payload")
+    public BookingPayload createPayload(
+            String firstname,
+            String lastname,
+            String totalprice,
+            String depositpaid,
+            String checkin,
+            String checkout,
+            String additionalneeds) {
 
         Bookingdates bookingDates = new Bookingdates();
-
         bookingDates.setCheckin(checkin);
         bookingDates.setCheckout(checkout);
 
-        BookingPayload bookingPayload = new BookingPayload();
-
-        bookingPayload.setFirstname(firstname);
-        bookingPayload.setLastname(lastname);
-
-        // Convert String to int
-        bookingPayload.setTotalprice(Integer.parseInt(totalprice));
-
-        // Convert String to boolean
-        bookingPayload.setDepositpaid(Boolean.parseBoolean(depositpaid));
-
-        bookingPayload.setBookingdates(bookingDates);
-        bookingPayload.setAdditionalneeds(additionalneeds);
+        BookingPayload payload = new BookingPayload();
+        payload.setFirstname(firstname);
+        payload.setLastname(lastname);
+        payload.setTotalprice(Integer.parseInt(totalprice));
+        payload.setDepositpaid(Boolean.parseBoolean(depositpaid));
+        payload.setBookingdates(bookingDates);
+        payload.setAdditionalneeds(additionalneeds);
 
         logger.info("Payload Prepared Successfully");
 
-        // ================= CREATE BOOKING =================
+        return payload;
+    }
 
-        Response createResponse =
-                BookingEndPoints.create_booking(
-                        bookingPayload,
-                        bearer_token
-                );
+    // ================= CREATE =================
+    @Step("Create Booking")
+    public String createBooking(BookingPayload payload) {
 
-        createResponse.then().log().all();
+        Response response = BookingEndPoints.create_booking(payload, bearer_token);
+        response.then().log().all();
 
-        Assert.assertEquals(createResponse.getStatusCode(), 200);
+        Assert.assertEquals(response.getStatusCode(), 200);
 
-        String bookingId =
-                createResponse.jsonPath().getString("bookingid");
+        String bookingId = response.jsonPath().getString("bookingid");
 
-        logger.info("Booking Created Successfully");
-        logger.info("Booking ID: " + bookingId);
+        logger.info("Booking Created Successfully. ID: " + bookingId);
 
-        // ================= READ BOOKING =================
+        return bookingId;
+    }
 
-        Response getResponse =
-                BookingEndPoints.read_booking(
-                        bookingId,
-                        bearer_token
-                );
+    // ================= READ =================
+    @Step("Read Booking")
+    public void readBooking(String bookingId) {
 
-        getResponse.then().log().all();
+        Response response = BookingEndPoints.read_booking(bookingId, bearer_token);
+        response.then().log().all();
 
-        Assert.assertEquals(getResponse.getStatusCode(), 200);
+        Assert.assertEquals(response.getStatusCode(), 200);
 
         logger.info("Booking Read Successfully");
+    }
 
-        // ================= UPDATE BOOKING =================
+    // ================= UPDATE =================
+    @Step("Update Booking")
+    public void updateBooking(
+            String bookingId,
+            BookingPayload payload,
+            String firstname,
+            String lastname,
+            String totalprice) {
 
-        bookingPayload.setFirstname(firstname + "_Updated");
-        bookingPayload.setLastname(lastname + "_Updated");
+        payload.setFirstname(firstname + "_Updated");
+        payload.setLastname(lastname + "_Updated");
+        payload.setTotalprice(Integer.parseInt(totalprice) + 100);
+        payload.setAdditionalneeds("Lunch");
 
-        bookingPayload.setTotalprice(
-                Integer.parseInt(totalprice) + 100
+        Response response = BookingEndPoints.update_booking(
+                bookingId, payload, bearer_token
         );
 
-        bookingPayload.setAdditionalneeds("Lunch");
+        response.then().log().all();
 
-        Response updateResponse =
-                BookingEndPoints.update_booking(
-                        bookingId,
-                        bookingPayload,
-                        bearer_token
-                );
-
-        updateResponse.then().log().all();
-
-        Assert.assertEquals(updateResponse.getStatusCode(), 200);
+        Assert.assertEquals(response.getStatusCode(), 200);
 
         logger.info("Booking Updated Successfully");
+    }
 
-        // ================= DELETE BOOKING =================
+    // ================= DELETE =================
+    @Step("Delete Booking")
+    public void deleteBooking(String bookingId) {
 
-        Response deleteResponse =
-                BookingEndPoints.delete_booking(
-                        bookingId,
-                        bearer_token
-                );
+        Response response = BookingEndPoints.delete_booking(
+                bookingId, bearer_token
+        );
 
-        deleteResponse.then().log().all();
+        response.then().log().all();
 
-        Assert.assertEquals(deleteResponse.getStatusCode(), 201);
+        Assert.assertEquals(response.getStatusCode(), 201);
 
         logger.info("Booking Deleted Successfully");
-
-        logger.info("========== BOOKING CRUD TEST COMPLETED ==========");
     }
 }

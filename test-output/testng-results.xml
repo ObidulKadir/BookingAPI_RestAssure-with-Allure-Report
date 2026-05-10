@@ -2,16 +2,18 @@
 <testng-results ignored="0" total="27" passed="6" failed="21" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-11T00:31:21 BDT" name="Suite" finished-at="2026-05-11T00:32:35 BDT" duration-ms="73558">
+  <suite started-at="2026-05-11T00:56:01 BDT" name="Suite" finished-at="2026-05-11T00:56:38 BDT" duration-ms="37304">
     <groups>
     </groups>
-    <test started-at="2026-05-11T00:31:21 BDT" name="Test" finished-at="2026-05-11T00:32:35 BDT" duration-ms="73558">
+    <test started-at="2026-05-11T00:56:01 BDT" name="Test" finished-at="2026-05-11T00:56:01 BDT" duration-ms="15">
+    </test> <!-- Test -->
+    <test started-at="2026-05-11T00:56:01 BDT" name="DataDrivenTest" finished-at="2026-05-11T00:56:38 BDT" duration-ms="37215">
       <class name="api.tests.DDBookingTests">
-        <test-method is-config="true" signature="setup_data()[pri:0, instance:api.tests.DDBookingTests@2631f68c]" started-at="2026-05-11T00:32:00 BDT" name="setup_data" finished-at="2026-05-11T00:32:01 BDT" duration-ms="1648" status="PASS">
+        <test-method is-config="true" signature="setup_data()[pri:0, instance:api.tests.DDBookingTests@77825085]" started-at="2026-05-11T00:56:01 BDT" name="setup_data" finished-at="2026-05-11T00:56:05 BDT" duration-ms="4451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup_data -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@2631f68c]" started-at="2026-05-11T00:32:02 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:32:08 BDT" duration-ms="6646" status="PASS">
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@77825085]" started-at="2026-05-11T00:56:06 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:56:12 BDT" duration-ms="6229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_booking_crud -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@2631f68c]" started-at="2026-05-11T00:32:08 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:32:15 BDT" duration-ms="6614" status="PASS">
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@77825085]" started-at="2026-05-11T00:56:12 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:56:18 BDT" duration-ms="6145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_booking_crud -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@2631f68c]" started-at="2026-05-11T00:32:15 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:32:21 BDT" duration-ms="6507" status="PASS">
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@77825085]" started-at="2026-05-11T00:56:18 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:56:24 BDT" duration-ms="6138" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_booking_crud -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@2631f68c]" started-at="2026-05-11T00:32:21 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:32:28 BDT" duration-ms="6641" status="PASS">
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@77825085]" started-at="2026-05-11T00:56:24 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:56:30 BDT" duration-ms="6045" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,7 +177,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_booking_crud -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@2631f68c]" started-at="2026-05-11T00:32:28 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:32:35 BDT" duration-ms="6476" status="PASS">
+        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@77825085]" started-at="2026-05-11T00:56:30 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T00:56:36 BDT" duration-ms="6201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -218,7 +220,11 @@
         </test-method> <!-- test_booking_crud -->
       </class> <!-- api.tests.DDBookingTests -->
       <class name="api.tests.DDAuthTests">
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:22 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:26 BDT" duration-ms="3827" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:01 BDT" name="setup" finished-at="2026-05-11T00:56:01 BDT" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:03 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:05 BDT" duration-ms="2841" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -270,7 +276,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -283,29 +290,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:26 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:28 BDT" duration-ms="1523" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:05 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:07 BDT" duration-ms="1571" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -357,7 +354,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -370,29 +368,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:28 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:29 BDT" duration-ms="1610" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:07 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:09 BDT" duration-ms="1565" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -444,7 +432,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -457,29 +446,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:29 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:31 BDT" duration-ms="1581" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:09 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:10 BDT" duration-ms="1540" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -531,7 +510,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -544,29 +524,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:31 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:33 BDT" duration-ms="1540" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:10 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:12 BDT" duration-ms="1554" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -618,7 +588,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -631,29 +602,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:33 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:34 BDT" duration-ms="1624" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:12 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:13 BDT" duration-ms="1548" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -705,7 +666,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -718,29 +680,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:34 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:36 BDT" duration-ms="1556" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:13 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:15 BDT" duration-ms="1578" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -792,7 +744,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -805,29 +758,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:36 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:37 BDT" duration-ms="1565" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:15 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:16 BDT" duration-ms="1523" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -879,7 +822,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -892,29 +836,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:37 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:39 BDT" duration-ms="1564" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:16 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:18 BDT" duration-ms="1526" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -966,7 +900,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -979,29 +914,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:39 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:41 BDT" duration-ms="1700" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:18 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:19 BDT" duration-ms="1524" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1053,7 +978,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1066,29 +992,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:41 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:42 BDT" duration-ms="1600" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:19 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:21 BDT" duration-ms="1546" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1148,7 +1064,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1161,29 +1078,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:42 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:44 BDT" duration-ms="1611" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:21 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:22 BDT" duration-ms="1516" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1235,7 +1142,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1248,29 +1156,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:44 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:45 BDT" duration-ms="1568" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:22 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:24 BDT" duration-ms="1540" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1322,7 +1220,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1335,29 +1234,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:45 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:47 BDT" duration-ms="1550" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:24 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:26 BDT" duration-ms="1506" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1409,7 +1298,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1422,29 +1312,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:47 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:48 BDT" duration-ms="1579" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:26 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:27 BDT" duration-ms="1528" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1496,7 +1376,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1509,29 +1390,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:48 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:50 BDT" duration-ms="1572" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:27 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:29 BDT" duration-ms="1547" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1583,7 +1454,8 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1596,29 +1468,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:50 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:52 BDT" duration-ms="1646" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:29 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:30 BDT" duration-ms="1506" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1670,8 +1532,9 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-at jdk.internal.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+at jdk.internal.reflect.GeneratedMethodAccessor166.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1682,29 +1545,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:52 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:53 BDT" duration-ms="1589" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:30 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:32 BDT" duration-ms="1561" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1756,8 +1609,9 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-at jdk.internal.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+at jdk.internal.reflect.GeneratedMethodAccessor166.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1768,29 +1622,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:53 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:55 BDT" duration-ms="1580" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:32 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:33 BDT" duration-ms="1558" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1842,8 +1686,9 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-at jdk.internal.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+at jdk.internal.reflect.GeneratedMethodAccessor166.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1854,29 +1699,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:55 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:56 BDT" duration-ms="1576" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:33 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:35 BDT" duration-ms="1521" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1928,8 +1763,9 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-at jdk.internal.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+at jdk.internal.reflect.GeneratedMethodAccessor166.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1940,29 +1776,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:56 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:31:58 BDT" duration-ms="1597" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:35 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:36 BDT" duration-ms="1503" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2014,8 +1840,9 @@ at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(
 at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-at jdk.internal.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+at jdk.internal.reflect.GeneratedMethodAccessor166.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -2026,29 +1853,19 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@64c63c79]" started-at="2026-05-11T00:31:58 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:32:00 BDT" duration-ms="1639" status="PASS">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@3da30852]" started-at="2026-05-11T00:56:36 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T00:56:38 BDT" duration-ms="1558" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2065,6 +1882,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- testLoginUser -->
       </class> <!-- api.tests.DDAuthTests -->
-    </test> <!-- Test -->
+    </test> <!-- DataDrivenTest -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,12 +103,67 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039; OR &#039;a&#039;=&#039;a, &#039; OR &#039;a&#039;=&#039;a)">testLoginUser(' OR 'a'='a, ' OR 'a'='a)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039; OR 1=1--, &#039; OR 1=1--)">testLoginUser(' OR 1=1--, ' OR 1=1--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; AND 1=2--, admin&#039; AND 1=2--)">testLoginUser(admin' AND 1=2--, admin' AND 1=2--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039;; WAITFOR DELAY &#039;0:0:5&#039;--, admin&#039;; WAITFOR DELAY &#039;0:0:5&#039;--)">testLoginUser(admin'; WAITFOR DELAY '0:0:5'--, admin'; WAITFOR DELAY '0:0:5'--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; UNION SELECT NULL--, admin&#039; UNION SELECT NULL--)">testLoginUser(admin' UNION SELECT NULL--, admin' UNION SELECT NULL--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; OR SLEEP(5)--, admin&#039; OR SLEEP(5)--)">testLoginUser(admin' OR SLEEP(5)--, admin' OR SLEEP(5)--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039;\&quot;&lt;&gt;, &#039;\&quot;&lt;&gt;)">testLoginUser('\"<>, '\"<>)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; AND 1=1--, admin&#039; AND 1=1--)">testLoginUser(admin' AND 1=1--, admin' AND 1=1--)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...)">testLoginUser(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin, admin)">testLoginUser(admin, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039; OR EXISTS(SELECT * FROM users)--, &#039; OR EXISTS(SELECT * FROM users)--)">testLoginUser(' OR EXISTS(SELECT * FROM users)--, ' OR EXISTS(SELECT * FROM users)--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039;--, &#039;--)">testLoginUser('--, '--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(valid_user, valid_user)">testLoginUser(valid_user, valid_user)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; OR &#039;1&#039;=&#039;1, admin&#039; OR &#039;1&#039;=&#039;1)">testLoginUser(admin' OR '1'='1, admin' OR '1'='1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,32 +187,7 @@ admin'--
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; OR &#039;1&#039;=&#039;1, admin&#039; OR &#039;1&#039;=&#039;1)">testLoginUser(admin' OR '1'='1, admin' OR '1'='1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&quot;&quot;, &quot;&quot;)">testLoginUser("", "")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039;--, &#039;--)">testLoginUser('--, '--)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; OR SLEEP(5)--, admin&#039; OR SLEEP(5)--)">testLoginUser(admin' OR SLEEP(5)--, admin' OR SLEEP(5)--)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin, admin)">testLoginUser(admin, admin)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039; OR EXISTS(SELECT * FROM users)--, &#039; OR EXISTS(SELECT * FROM users)--)">testLoginUser(' OR EXISTS(SELECT * FROM users)--, ' OR EXISTS(SELECT * FROM users)--)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(1 OR 1=1, 1 OR 1=1)">testLoginUser(1 OR 1=1, 1 OR 1=1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,37 +197,17 @@ admin'--
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039; OR &#039;a&#039;=&#039;a, &#039; OR &#039;a&#039;=&#039;a)">testLoginUser(' OR 'a'='a, ' OR 'a'='a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039; UNION SELECT NULL--, &#039; UNION SELECT NULL--)">testLoginUser(' UNION SELECT NULL--, ' UNION SELECT NULL--)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(1 OR 1=1, 1 OR 1=1)">testLoginUser(1 OR 1=1, 1 OR 1=1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039; OR 1=1--, &#039; OR 1=1--)">testLoginUser(' OR 1=1--, ' OR 1=1--)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039;; WAITFOR DELAY &#039;0:0:5&#039;--, admin&#039;; WAITFOR DELAY &#039;0:0:5&#039;--)">testLoginUser(admin'; WAITFOR DELAY '0:0:5'--, admin'; WAITFOR DELAY '0:0:5'--)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; AND 1=2--, admin&#039; AND 1=2--)">testLoginUser(admin' AND 1=2--, admin' AND 1=2--)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; AND 1=1--, admin&#039; AND 1=1--)">testLoginUser(admin' AND 1=1--, admin' AND 1=1--)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(1&#039; OR &#039;1&#039;=&#039;1, 1&#039; OR &#039;1&#039;=&#039;1)">testLoginUser(1' OR '1'='1, 1' OR '1'='1)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&quot;&quot;, &quot;&quot;)">testLoginUser("", "")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -207,17 +217,7 @@ admin'--
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(admin&#039; UNION SELECT NULL--, admin&#039; UNION SELECT NULL--)">testLoginUser(admin' UNION SELECT NULL--, admin' UNION SELECT NULL--)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(&#039;\&quot;&lt;&gt;, &#039;\&quot;&lt;&gt;)">testLoginUser('\"<>, '\"<>)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(valid_user, valid_user)">testLoginUser(valid_user, valid_user)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDAuthTests" class="method navigator-link" hash-for-method="testLoginUser(1&#039; OR &#039;1&#039;=&#039;1, 1&#039; OR &#039;1&#039;=&#039;1)">testLoginUser(1' OR '1'='1, 1' OR '1'='1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -241,7 +241,7 @@ admin'--
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDBookingTests" class="method navigator-link" hash-for-method="test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner)">test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDBookingTests" class="method navigator-link" hash-for-method="test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets)">test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -251,12 +251,12 @@ admin'--
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDBookingTests" class="method navigator-link" hash-for-method="test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast)">test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDBookingTests" class="method navigator-link" hash-for-method="test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner)">test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.tests.DDBookingTests" class="method navigator-link" hash-for-method="test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets)">test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.tests.DDBookingTests" class="method navigator-link" hash-for-method="test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast)">test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -279,10 +279,10 @@ admin'--
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginUser(&#039; OR &#039;a&#039;=&#039;a, &#039; OR &#039;a&#039;=&#039;a)">
-                  </a> <!-- testLoginUser(' OR 'a'='a, ' OR 'a'='a) -->
+                  <a name="testLoginUser(&#039; OR 1=1--, &#039; OR 1=1--)">
+                  </a> <!-- testLoginUser(' OR 1=1-, ' OR 1=1-) -->
                   <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(' OR 'a'='a,' OR 'a'='a)</span>
+                  <span class="parameters">(' OR 1=1--,' OR 1=1--)</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Response body doesn&apos;t match expectation.
 Expected: The content to match the given JSON schema.
@@ -304,9 +304,242 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(admin&#039; AND 1=2--, admin&#039; AND 1=2--)">
+                  </a> <!-- testLoginUser(admin' AND 1=2-, admin' AND 1=2-) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">(admin' AND 1=2--,admin' AND 1=2--)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(admin&#039;; WAITFOR DELAY &#039;0:0:5&#039;--, admin&#039;; WAITFOR DELAY &#039;0:0:5&#039;--)">
+                  </a> <!-- testLoginUser(admin'; WAITFOR DELAY '0:0:5'-, admin'; WAITFOR DELAY '0:0:5'-) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">(admin'; WAITFOR DELAY '0:0:5'--,admin'; WAITFOR DELAY '0:0:5'--)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(admin&#039; UNION SELECT NULL--, admin&#039; UNION SELECT NULL--)">
+                  </a> <!-- testLoginUser(admin' UNION SELECT NULL-, admin' UNION SELECT NULL-) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">(admin' UNION SELECT NULL--,admin' UNION SELECT NULL--)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(admin&#039; OR SLEEP(5)--, admin&#039; OR SLEEP(5)--)">
+                  </a> <!-- testLoginUser(admin' OR SLEEP(5)-, admin' OR SLEEP(5)-) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">(admin' OR SLEEP(5)--,admin' OR SLEEP(5)--)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(&#039;\&quot;&lt;&gt;, &#039;\&quot;&lt;&gt;)">
+                  </a> <!-- testLoginUser('\"<>, '\"<>) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">('\"<>,'\"<>)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(admin&#039; AND 1=1--, admin&#039; AND 1=1--)">
+                  </a> <!-- testLoginUser(admin' AND 1=1-, admin' AND 1=1-) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">(admin' AND 1=1--,admin' AND 1=1--)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -337,9 +570,204 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 26 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(admin, admin)">
+                  </a> <!-- testLoginUser(admin, admin) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">(admin,admin)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(&#039; OR EXISTS(SELECT * FROM users)--, &#039; OR EXISTS(SELECT * FROM users)--)">
+                  </a> <!-- testLoginUser(' OR EXISTS(SELECT * FROM users)-, ' OR EXISTS(SELECT * FROM users)-) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">(' OR EXISTS(SELECT * FROM users)--,' OR EXISTS(SELECT * FROM users)--)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(&#039;--, &#039;--)">
+                  </a> <!-- testLoginUser('-, '-) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">('--,'--)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(valid_user, valid_user)">
+                  </a> <!-- testLoginUser(valid_user, valid_user) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">(valid_user,valid_user)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser(admin&#039; OR &#039;1&#039;=&#039;1, admin&#039; OR &#039;1&#039;=&#039;1)">
+                  </a> <!-- testLoginUser(admin' OR '1'='1, admin' OR '1'='1) -->
+                  <span class="method-name">testLoginUser</span>
+                  <span class="parameters">(admin' OR '1'='1,admin' OR '1'='1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;token&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;token&quot;]
+    missing: [&quot;token&quot;]
+
+  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -392,273 +820,14 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(admin&#039; OR &#039;1&#039;=&#039;1, admin&#039; OR &#039;1&#039;=&#039;1)">
-                  </a> <!-- testLoginUser(admin' OR '1'='1, admin' OR '1'='1) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(admin' OR '1'='1,admin' OR '1'='1)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(&quot;&quot;, &quot;&quot;)">
-                  </a> <!-- testLoginUser("", "") -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">("","")</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(&#039;--, &#039;--)">
-                  </a> <!-- testLoginUser('-, '-) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">('--,'--)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(admin&#039; OR SLEEP(5)--, admin&#039; OR SLEEP(5)--)">
-                  </a> <!-- testLoginUser(admin' OR SLEEP(5)-, admin' OR SLEEP(5)-) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(admin' OR SLEEP(5)--,admin' OR SLEEP(5)--)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(admin, admin)">
-                  </a> <!-- testLoginUser(admin, admin) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(admin,admin)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(&#039; OR EXISTS(SELECT * FROM users)--, &#039; OR EXISTS(SELECT * FROM users)--)">
-                  </a> <!-- testLoginUser(' OR EXISTS(SELECT * FROM users)-, ' OR EXISTS(SELECT * FROM users)-) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(' OR EXISTS(SELECT * FROM users)--,' OR EXISTS(SELECT * FROM users)--)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser({&quot;$gt&quot;:&quot;&quot;}, {&quot;$gt&quot;:&quot;&quot;})">
-                  </a> <!-- testLoginUser({"$gt":""}, {"$gt":""}) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">({"$gt":""},{"$gt":""})</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(&#039; UNION SELECT NULL--, &#039; UNION SELECT NULL--)">
-                  </a> <!-- testLoginUser(' UNION SELECT NULL-, ' UNION SELECT NULL-) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(' UNION SELECT NULL--,' UNION SELECT NULL--)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 26 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -689,18 +858,23 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginUser(&#039; OR 1=1--, &#039; OR 1=1--)">
-                  </a> <!-- testLoginUser(' OR 1=1-, ' OR 1=1-) -->
+                  <a name="testLoginUser({&quot;$gt&quot;:&quot;&quot;}, {&quot;$gt&quot;:&quot;&quot;})">
+                  </a> <!-- testLoginUser({"$gt":""}, {"$gt":""}) -->
                   <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(' OR 1=1--,' OR 1=1--)</span>
+                  <span class="parameters">({"$gt":""},{"$gt":""})</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Response body doesn&apos;t match expectation.
 Expected: The content to match the given JSON schema.
@@ -722,18 +896,23 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginUser(admin&#039;; WAITFOR DELAY &#039;0:0:5&#039;--, admin&#039;; WAITFOR DELAY &#039;0:0:5&#039;--)">
-                  </a> <!-- testLoginUser(admin'; WAITFOR DELAY '0:0:5'-, admin'; WAITFOR DELAY '0:0:5'-) -->
+                  <a name="testLoginUser(&#039; OR &#039;a&#039;=&#039;a, &#039; OR &#039;a&#039;=&#039;a)">
+                  </a> <!-- testLoginUser(' OR 'a'='a, ' OR 'a'='a) -->
                   <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(admin'; WAITFOR DELAY '0:0:5'--,admin'; WAITFOR DELAY '0:0:5'--)</span>
+                  <span class="parameters">(' OR 'a'='a,' OR 'a'='a)</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Response body doesn&apos;t match expectation.
 Expected: The content to match the given JSON schema.
@@ -755,18 +934,23 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginUser(admin&#039; AND 1=2--, admin&#039; AND 1=2--)">
-                  </a> <!-- testLoginUser(admin' AND 1=2-, admin' AND 1=2-) -->
+                  <a name="testLoginUser(&#039; UNION SELECT NULL--, &#039; UNION SELECT NULL--)">
+                  </a> <!-- testLoginUser(' UNION SELECT NULL-, ' UNION SELECT NULL-) -->
                   <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(admin' AND 1=2--,admin' AND 1=2--)</span>
+                  <span class="parameters">(' UNION SELECT NULL--,' UNION SELECT NULL--)</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Response body doesn&apos;t match expectation.
 Expected: The content to match the given JSON schema.
@@ -788,18 +972,23 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginUser(admin&#039; AND 1=1--, admin&#039; AND 1=1--)">
-                  </a> <!-- testLoginUser(admin' AND 1=1-, admin' AND 1=1-) -->
+                  <a name="testLoginUser(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- testLoginUser("", "") -->
                   <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(admin' AND 1=1--,admin' AND 1=1--)</span>
+                  <span class="parameters">("","")</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Response body doesn&apos;t match expectation.
 Expected: The content to match the given JSON schema.
@@ -821,42 +1010,14 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(1&#039; OR &#039;1&#039;=&#039;1, 1&#039; OR &#039;1&#039;=&#039;1)">
-                  </a> <!-- testLoginUser(1' OR '1'='1, 1' OR '1'='1) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(1' OR '1'='1,1' OR '1'='1)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -887,18 +1048,23 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginUser(admin&#039; UNION SELECT NULL--, admin&#039; UNION SELECT NULL--)">
-                  </a> <!-- testLoginUser(admin' UNION SELECT NULL-, admin' UNION SELECT NULL-) -->
+                  <a name="testLoginUser(1&#039; OR &#039;1&#039;=&#039;1, 1&#039; OR &#039;1&#039;=&#039;1)">
+                  </a> <!-- testLoginUser(1' OR '1'='1, 1' OR '1'='1) -->
                   <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(admin' UNION SELECT NULL--,admin' UNION SELECT NULL--)</span>
+                  <span class="parameters">(1' OR '1'='1,1' OR '1'='1)</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Response body doesn&apos;t match expectation.
 Expected: The content to match the given JSON schema.
@@ -920,75 +1086,14 @@ error: object has missing required properties ([&quot;token&quot;])
 	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(&#039;\&quot;&lt;&gt;, &#039;\&quot;&lt;&gt;)">
-                  </a> <!-- testLoginUser('\"<>, '\"<>) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">('\"<>,'\"<>)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginUser(valid_user, valid_user)">
-                  </a> <!-- testLoginUser(valid_user, valid_user) -->
-                  <span class="method-name">testLoginUser</span>
-                  <span class="parameters">(valid_user,valid_user)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Response body doesn&apos;t match expectation.
-Expected: The content to match the given JSON schema.
-error: object has missing required properties ([&quot;token&quot;])
-    level: &quot;error&quot;
-    schema: {&quot;loadingURI&quot;:&quot;file:/D:/PersonalSpace/PracticeSpace/Rest%20Assured/BookingSystemAPI-RestAssured/target/test-classes/auth_login_user_response_schema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
-    instance: {&quot;pointer&quot;:&quot;&quot;}
-    domain: &quot;validation&quot;
-    keyword: &quot;required&quot;
-    required: [&quot;token&quot;]
-    missing: [&quot;token&quot;]
-
-  Actual: {&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:111)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+	at api.tests.DDAuthTests.validateSchema(DDAuthTests.java:90)
+	at api.tests.DDAuthTests.testLoginUser(DDAuthTests.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -1026,10 +1131,10 @@ error: object has missing required properties ([&quot;token&quot;])
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner)">
-                  </a> <!-- test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner) -->
+                  <a name="test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets)">
+                  </a> <!-- test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets) -->
                   <span class="method-name">test_booking_crud</span>
-                  <span class="parameters">(TURNY,RABBANI,11112,FALSE,2026-02-27,2026-03-01,Dinner)</span>
+                  <span class="parameters">(SUMAIYA,RIFAT,544554,TRUE,2026-02-26,2026-02-28,Sweets)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -1042,18 +1147,18 @@ error: object has missing required properties ([&quot;token&quot;])
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast)">
-                  </a> <!-- test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast) -->
+                  <a name="test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner)">
+                  </a> <!-- test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner) -->
                   <span class="method-name">test_booking_crud</span>
-                  <span class="parameters">(MD.BK,Khan,65454,TRUE,2026-02-23,2026-02-25,Breakfast)</span>
+                  <span class="parameters">(TURNY,RABBANI,11112,FALSE,2026-02-27,2026-03-01,Dinner)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets)">
-                  </a> <!-- test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets) -->
+                  <a name="test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast)">
+                  </a> <!-- test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast) -->
                   <span class="method-name">test_booking_crud</span>
-                  <span class="parameters">(SUMAIYA,RIFAT,544554,TRUE,2026-02-26,2026-02-28,Sweets)</span>
+                  <span class="parameters">(MD.BK,Khan,65454,TRUE,2026-02-23,2026-02-25,Breakfast)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1067,16 +1172,18 @@ error: object has missing required properties ([&quot;token&quot;])
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;api.utilities.AllureListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Test&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;DataDrivenTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;api.tests.DDAuthTests&quot;/&gt;
       &lt;class name=&quot;api.tests.DDBookingTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- DataDrivenTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1088,7 +1195,10 @@ error: object has missing required properties ([&quot;token&quot;])
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (0 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">DataDrivenTest (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1118,111 +1228,111 @@ data.addRows(27);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_booking_crud')
 data.setCell(0, 2, 'api.tests.DDBookingTests')
-data.setCell(0, 3, 6646);
+data.setCell(0, 3, 6229);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test_booking_crud')
 data.setCell(1, 2, 'api.tests.DDBookingTests')
-data.setCell(1, 3, 6641);
+data.setCell(1, 3, 6201);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test_booking_crud')
 data.setCell(2, 2, 'api.tests.DDBookingTests')
-data.setCell(2, 3, 6614);
+data.setCell(2, 3, 6145);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'test_booking_crud')
 data.setCell(3, 2, 'api.tests.DDBookingTests')
-data.setCell(3, 3, 6507);
+data.setCell(3, 3, 6138);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'test_booking_crud')
 data.setCell(4, 2, 'api.tests.DDBookingTests')
-data.setCell(4, 3, 6476);
+data.setCell(4, 3, 6045);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testLoginUser')
 data.setCell(5, 2, 'api.tests.DDAuthTests')
-data.setCell(5, 3, 3827);
+data.setCell(5, 3, 2841);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testLoginUser')
 data.setCell(6, 2, 'api.tests.DDAuthTests')
-data.setCell(6, 3, 1700);
+data.setCell(6, 3, 1578);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testLoginUser')
 data.setCell(7, 2, 'api.tests.DDAuthTests')
-data.setCell(7, 3, 1646);
+data.setCell(7, 3, 1571);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testLoginUser')
 data.setCell(8, 2, 'api.tests.DDAuthTests')
-data.setCell(8, 3, 1639);
+data.setCell(8, 3, 1565);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'testLoginUser')
 data.setCell(9, 2, 'api.tests.DDAuthTests')
-data.setCell(9, 3, 1624);
+data.setCell(9, 3, 1561);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'testLoginUser')
 data.setCell(10, 2, 'api.tests.DDAuthTests')
-data.setCell(10, 3, 1611);
+data.setCell(10, 3, 1558);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'testLoginUser')
 data.setCell(11, 2, 'api.tests.DDAuthTests')
-data.setCell(11, 3, 1610);
+data.setCell(11, 3, 1558);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'testLoginUser')
 data.setCell(12, 2, 'api.tests.DDAuthTests')
-data.setCell(12, 3, 1600);
+data.setCell(12, 3, 1554);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'testLoginUser')
 data.setCell(13, 2, 'api.tests.DDAuthTests')
-data.setCell(13, 3, 1597);
+data.setCell(13, 3, 1548);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'testLoginUser')
 data.setCell(14, 2, 'api.tests.DDAuthTests')
-data.setCell(14, 3, 1589);
+data.setCell(14, 3, 1547);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'testLoginUser')
 data.setCell(15, 2, 'api.tests.DDAuthTests')
-data.setCell(15, 3, 1581);
+data.setCell(15, 3, 1546);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'testLoginUser')
 data.setCell(16, 2, 'api.tests.DDAuthTests')
-data.setCell(16, 3, 1580);
+data.setCell(16, 3, 1540);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'testLoginUser')
 data.setCell(17, 2, 'api.tests.DDAuthTests')
-data.setCell(17, 3, 1579);
+data.setCell(17, 3, 1540);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'testLoginUser')
 data.setCell(18, 2, 'api.tests.DDAuthTests')
-data.setCell(18, 3, 1576);
+data.setCell(18, 3, 1528);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'testLoginUser')
 data.setCell(19, 2, 'api.tests.DDAuthTests')
-data.setCell(19, 3, 1572);
+data.setCell(19, 3, 1526);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'testLoginUser')
 data.setCell(20, 2, 'api.tests.DDAuthTests')
-data.setCell(20, 3, 1568);
+data.setCell(20, 3, 1524);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'testLoginUser')
 data.setCell(21, 2, 'api.tests.DDAuthTests')
-data.setCell(21, 3, 1565);
+data.setCell(21, 3, 1523);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'testLoginUser')
 data.setCell(22, 2, 'api.tests.DDAuthTests')
-data.setCell(22, 3, 1564);
+data.setCell(22, 3, 1521);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'testLoginUser')
 data.setCell(23, 2, 'api.tests.DDAuthTests')
-data.setCell(23, 3, 1556);
+data.setCell(23, 3, 1516);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'testLoginUser')
 data.setCell(24, 2, 'api.tests.DDAuthTests')
-data.setCell(24, 3, 1550);
+data.setCell(24, 3, 1506);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'testLoginUser')
 data.setCell(25, 2, 'api.tests.DDAuthTests')
-data.setCell(25, 3, 1540);
+data.setCell(25, 3, 1506);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'testLoginUser')
 data.setCell(26, 2, 'api.tests.DDAuthTests')
-data.setCell(26, 3, 1523);
+data.setCell(26, 3, 1503);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -1253,67 +1363,108 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup_data</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">api.tests.DDAuthTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(valid_user, valid_user)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">1958 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser("", "")</span>
-                <span class="method-start">3877 ms</span>
+                <span class="method-start">4819 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDBookingTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast)</span>
+                <span class="method-start">4980 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDAuthTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(admin, admin)</span>
-                <span class="method-start">5407 ms</span>
+                <span class="method-start">6394 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(admin' OR '1'='1, admin' OR '1'='1)</span>
-                <span class="method-start">7022 ms</span>
+                <span class="method-start">7962 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(' OR 1=1--, ' OR 1=1--)</span>
-                <span class="method-start">8607 ms</span>
+                <span class="method-start">9505 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(admin' AND 1=1--, admin' AND 1=1--)</span>
-                <span class="method-start">10150 ms</span>
+                <span class="method-start">11063 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDBookingTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_booking_crud(MD. Mahmud, Ahamed, 14112, FALSE, 2026-02-24, 2026-02-26, Snacks)</span>
+                <span class="method-start">11213 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDAuthTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(admin' AND 1=2--, admin' AND 1=2--)</span>
-                <span class="method-start">11779 ms</span>
+                <span class="method-start">12613 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(admin' OR SLEEP(5)--, admin' OR SLEEP(5)--)</span>
-                <span class="method-start">13339 ms</span>
+                <span class="method-start">14195 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(admin'; WAITFOR DELAY '0:0:5'--, admin'; WAITFOR DELAY '0:0:5'--)</span>
-                <span class="method-start">14909 ms</span>
+                <span class="method-start">15722 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser('--, '--)</span>
-                <span class="method-start">16476 ms</span>
+                <span class="method-start">17250 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDBookingTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_booking_crud(Sabbir, CTO, 65455, TRUE, 2026-02-25, 2026-02-27, Chips)</span>
+                <span class="method-start">17360 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDAuthTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
@@ -1325,98 +1476,91 @@ admin'--
 '#
 admin'--
 <script>...)</span>
-                <span class="method-start">18178 ms</span>
+                <span class="method-start">18777 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser({"$ne":null}, {"$ne":null})</span>
-                <span class="method-start">19781 ms</span>
+                <span class="method-start">20326 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser({"$gt":""}, {"$gt":""})</span>
-                <span class="method-start">21395 ms</span>
+                <span class="method-start">21844 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(1 OR 1=1, 1 OR 1=1)</span>
-                <span class="method-start">22966 ms</span>
+                <span class="method-start">23386 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDBookingTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets)</span>
+                <span class="method-start">23503 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDAuthTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(1' OR '1'='1, 1' OR '1'='1)</span>
-                <span class="method-start">24519 ms</span>
+                <span class="method-start">24896 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(' OR 'a'='a, ' OR 'a'='a)</span>
-                <span class="method-start">26100 ms</span>
+                <span class="method-start">26427 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(' UNION SELECT NULL--, ' UNION SELECT NULL--)</span>
-                <span class="method-start">27677 ms</span>
+                <span class="method-start">27976 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(admin' UNION SELECT NULL--, admin' UNION SELECT NULL--)</span>
-                <span class="method-start">29326 ms</span>
+                <span class="method-start">29484 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDBookingTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner)</span>
+                <span class="method-start">29550 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.DDAuthTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(' OR EXISTS(SELECT * FROM users)--, ' OR EXISTS(SELECT * FROM users)--)</span>
-                <span class="method-start">30918 ms</span>
+                <span class="method-start">31046 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...)</span>
-                <span class="method-start">32500 ms</span>
+                <span class="method-start">32606 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginUser('\"<>, '\"<>)</span>
-                <span class="method-start">34078 ms</span>
+                <span class="method-start">34129 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLoginUser(admin, password123)</span>
-                <span class="method-start">35678 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">api.tests.DDBookingTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup_data</span>
-                <span class="method-start">37321 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">test_booking_crud(MD.BK, Khan, 65454, TRUE, 2026-02-23, 2026-02-25, Breakfast)</span>
-                <span class="method-start">39287 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">test_booking_crud(MD. Mahmud, Ahamed, 14112, FALSE, 2026-02-24, 2026-02-26, Snacks)</span>
-                <span class="method-start">45935 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">test_booking_crud(Sabbir, CTO, 65455, TRUE, 2026-02-25, 2026-02-27, Chips)</span>
-                <span class="method-start">52551 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">test_booking_crud(SUMAIYA, RIFAT, 544554, TRUE, 2026-02-26, 2026-02-28, Sweets)</span>
-                <span class="method-start">59060 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">test_booking_crud(TURNY, RABBANI, 11112, FALSE, 2026-02-27, 2026-03-01, Dinner)</span>
-                <span class="method-start">65704 ms</span>
+                <span class="method-start">35634 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

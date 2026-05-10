@@ -1,5 +1,11 @@
 <factorypath>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/qameta/allure/allure-testng/2.29.0/allure-testng-2.29.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/qameta/allure/allure-rest-assured/2.29.0/allure-rest-assured-2.29.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/jayway/jsonpath/json-path/3.0.0/json-path-3.0.0.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/net/minidev/json-smart/2.6.0/json-smart-2.6.0.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/net/minidev/accessors-smart/2.6.0/accessors-smart-2.6.0.jar" enabled="true" runInBatchMode="false"/>
