@@ -1,5 +1,0 @@
-
-[public void api.tests.DDBookingTests.test_booking_crud(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: test_booking_crud([java.lang.String arg0, java.lang.String arg1, int arg2, boolean arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6])
-Arguments: [(java.lang.String) MD.BK,(java.lang.String) Khan,(java.lang.String) 65454,(java.lang.String) TRUE,(java.lang.String) 2026-02-23,(java.lang.String) 2026-02-25,(java.lang.String) Breakfast]

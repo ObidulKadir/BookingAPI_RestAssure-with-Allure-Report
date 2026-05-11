@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite 
-    name="Suite"
-    parallel="classes"
-    thread-count="2">
+<suite
+	name="Suite"
+	parallel="classes"
+	thread-count="2">
 
-    <listeners>
-        <listener class-name="api.utilities.AllureListener" />
-    </listeners>
+	<listeners>
+		<listener class-name="api.utilities.AllureListener" />
+	</listeners>
 
-    <!-- Normal Tests -->
+	<!-- Tests
     <test name="Test">
         <classes>
 
-            <!--
+            
             <class name="api.tests.AuthTests"/>
             <class name="api.tests.BookingTests"/>
-            -->
+       
 
         </classes>
-    </test>
+    </test>-->
 
-    <!-- Data Driven Tests -->
-    <test name="DataDrivenTest">
+	<!-- Data Driven Tests-->
+	<test name="DataDrivenTest">
 
-        <classes>
-            <class name="api.tests.DDAuthTests"/>
-            <class name="api.tests.DDBookingTests"/>
-        </classes>
+		<classes>
+			<class name="api.tests.DDAuthTests" />
+			<class name="api.tests.DDBookingTests" />
+		</classes>
 
-    </test>
+	</test>
 
 </suite>

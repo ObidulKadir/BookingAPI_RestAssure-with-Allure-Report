@@ -1,0 +1,40 @@
+2026-05-11 09:10:15 INFO  BookingTests:34 - ===== Booking Test Setup Started =====
+2026-05-11 09:10:15 INFO  AuthTests:42 - Generated Email: admin
+2026-05-11 09:10:15 INFO  AuthTests:43 - Generated Password: password123
+2026-05-11 09:10:15 INFO  AuthTests:45 - ===== Setup Data Completed =====
+2026-05-11 09:10:16 INFO  AuthTests:51 - ************* Login User ***************
+2026-05-11 09:10:19 INFO  AuthTests:55 - Request sent for user login
+2026-05-11 09:10:19 INFO  AuthTests:58 - Validating response for user login.
+2026-05-11 09:10:20 INFO  AuthTests:63 - ************* User logged  Successfully and token successfully.***************
+2026-05-11 09:10:20 INFO  BookingTests:59 - Payload Prepared for User: Christopher Schultz
+2026-05-11 09:10:20 INFO  BookingTests:60 - Total Price: 165
+2026-05-11 09:10:20 INFO  BookingTests:61 - ===== Booking Test Setup Completed =====
+2026-05-11 09:10:20 INFO  BookingTests:68 - ************* Create Booking Test Started *************
+2026-05-11 09:10:20 INFO  BookingTests:71 - Using Bearer Token: 8d3ccb49a1c991c
+2026-05-11 09:10:20 INFO  AuthTests:70 - ************* Response Json validate successfully ***************
+2026-05-11 09:10:22 INFO  BookingTests:75 - Create booking request sent
+2026-05-11 09:10:22 INFO  BookingTests:78 - Validating create booking response
+2026-05-11 09:10:22 INFO  BookingTests:83 - Booking Created Successfully
+2026-05-11 09:10:22 INFO  BookingTests:84 - Booking ID: 4193
+2026-05-11 09:10:22 INFO  BookingTests:85 - Booking Ref: null
+2026-05-11 09:10:22 INFO  BookingTests:87 - ************* Create Booking Test Completed *************
+2026-05-11 09:10:22 INFO  BookingTests:94 - ************* Read Booking By ID Test Started *************
+2026-05-11 09:10:22 INFO  BookingTests:97 - Using Bearer Token: 8d3ccb49a1c991c
+2026-05-11 09:10:22 INFO  BookingTests:98 - Booking ID: 4193
+2026-05-11 09:10:23 INFO  BookingTests:102 - Read booking by ID request sent
+2026-05-11 09:10:23 INFO  BookingTests:105 - Validating response
+2026-05-11 09:10:23 INFO  BookingTests:109 - ************* Read Booking By ID Test Completed *************
+2026-05-11 09:10:23 INFO  BookingTests:116 - ************* Update Booking Test Started *************
+2026-05-11 09:10:23 INFO  BookingTests:124 - Updating Booking ID: 4193
+2026-05-11 09:10:23 INFO  BookingTests:125 - New Price to set: 580
+2026-05-11 09:10:25 INFO  BookingTests:130 - Update booking request sent
+2026-05-11 09:10:25 INFO  BookingTests:133 - Validating update response
+2026-05-11 09:10:25 INFO  BookingTests:138 - Booking Updated Successfully
+2026-05-11 09:10:25 INFO  BookingTests:139 - ************* Update Booking Test Completed *************
+2026-05-11 09:10:25 INFO  BookingTests:146 - ************* Delete Booking Test Started *************
+2026-05-11 09:10:25 INFO  BookingTests:149 - Using Bearer Token: 8d3ccb49a1c991c
+2026-05-11 09:10:25 INFO  BookingTests:150 - Booking ID to delete: 4193
+2026-05-11 09:10:27 INFO  BookingTests:154 - Delete booking request sent
+2026-05-11 09:10:27 INFO  BookingTests:157 - Validating delete response
+2026-05-11 09:10:27 INFO  BookingTests:161 - Booking Deleted Successfully
+2026-05-11 09:10:27 INFO  BookingTests:163 - ************* Delete Booking Test Completed *************

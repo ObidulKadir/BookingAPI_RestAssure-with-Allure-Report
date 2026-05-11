@@ -38,6 +38,7 @@
 				</configuration>
 			</plugin>
 
+
 		</plugins>
 	</build>
 
@@ -47,10 +48,9 @@
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
-			<version>6.0.0</version>
+			<version>5.5.0</version>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- Allure TestNG -->
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
@@ -154,6 +154,12 @@
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>2.24.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.16.1</version>
 		</dependency>
 
 		<!-- Source:
