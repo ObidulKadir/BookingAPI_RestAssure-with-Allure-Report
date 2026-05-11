@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="27" passed="6" failed="21" skipped="0">
+<testng-results ignored="0" total="42" passed="21" failed="21" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-11T09:33:42 BDT" name="Suite" finished-at="2026-05-11T09:34:16 BDT" duration-ms="34285">
+  <suite started-at="2026-05-11T23:03:56 BDT" name="Suite" finished-at="2026-05-11T23:04:35 BDT" duration-ms="39167">
     <groups>
     </groups>
-    <test started-at="2026-05-11T09:33:42 BDT" name="DataDrivenTest" finished-at="2026-05-11T09:34:16 BDT" duration-ms="34285">
+    <test started-at="2026-05-11T23:03:56 BDT" name="DataDrivenTest" finished-at="2026-05-11T23:04:35 BDT" duration-ms="39167">
       <class name="api.tests.DDBookingTests">
-        <test-method is-config="true" signature="setup_data()[pri:0, instance:api.tests.DDBookingTests@5dcb4f5f]" started-at="2026-05-11T09:33:42 BDT" name="setup_data" finished-at="2026-05-11T09:33:46 BDT" duration-ms="4024" status="PASS">
+        <test-method is-config="true" signature="setup_data()[pri:0, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:03:57 BDT" name="setup_data" finished-at="2026-05-11T23:04:02 BDT" duration-ms="4559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup_data -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@5dcb4f5f]" started-at="2026-05-11T09:33:46 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T09:33:52 BDT" duration-ms="5585" status="PASS">
+        <test-method signature="test_create_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:02 BDT" name="test_create_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:04 BDT" duration-ms="1634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,8 +51,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_booking_crud -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@5dcb4f5f]" started-at="2026-05-11T09:33:52 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T09:33:57 BDT" duration-ms="5613" status="PASS">
+        </test-method> <!-- test_create_bookings -->
+        <test-method signature="test_create_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:04 BDT" name="test_create_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:05 BDT" duration-ms="1615" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,8 +92,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_booking_crud -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@5dcb4f5f]" started-at="2026-05-11T09:33:57 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T09:34:03 BDT" duration-ms="5556" status="PASS">
+        </test-method> <!-- test_create_bookings -->
+        <test-method signature="test_create_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:05 BDT" name="test_create_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:07 BDT" duration-ms="1523" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,8 +133,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_booking_crud -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@5dcb4f5f]" started-at="2026-05-11T09:34:03 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T09:34:08 BDT" duration-ms="5632" status="PASS">
+        </test-method> <!-- test_create_bookings -->
+        <test-method signature="test_create_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:07 BDT" name="test_create_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:08 BDT" duration-ms="1546" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,8 +174,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_booking_crud -->
-        <test-method signature="test_booking_crud(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@5dcb4f5f]" started-at="2026-05-11T09:34:08 BDT" name="test_booking_crud" data-provider="BookingData" finished-at="2026-05-11T09:34:14 BDT" duration-ms="5675" status="PASS">
+        </test-method> <!-- test_create_bookings -->
+        <test-method signature="test_create_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:08 BDT" name="test_create_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:10 BDT" duration-ms="1538" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,14 +215,629 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_booking_crud -->
+        </test-method> <!-- test_create_bookings -->
+        <test-method signature="test_get_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:10 BDT" name="test_get_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:12 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MD.BK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65454]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Breakfast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_bookings -->
+        <test-method signature="test_get_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:12 BDT" name="test_get_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:13 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MD. Mahmud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahamed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-24]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-26]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Snacks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_bookings -->
+        <test-method signature="test_get_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:13 BDT" name="test_get_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:15 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sabbir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CTO]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65455]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-27]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chips]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_bookings -->
+        <test-method signature="test_get_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:15 BDT" name="test_get_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:17 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SUMAIYA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RIFAT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[544554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-26]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-28]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sweets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_bookings -->
+        <test-method signature="test_get_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:17 BDT" name="test_get_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:18 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TURNY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RABBANI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-27]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-03-01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Dinner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_bookings -->
+        <test-method signature="test_update_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:18 BDT" name="test_update_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:20 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MD.BK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65454]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Breakfast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_bookings -->
+        <test-method signature="test_update_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:20 BDT" name="test_update_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:21 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MD. Mahmud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahamed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-24]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-26]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Snacks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_bookings -->
+        <test-method signature="test_update_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:21 BDT" name="test_update_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:23 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sabbir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CTO]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65455]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-27]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chips]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_bookings -->
+        <test-method signature="test_update_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:23 BDT" name="test_update_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:24 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SUMAIYA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RIFAT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[544554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-26]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-28]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sweets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_bookings -->
+        <test-method signature="test_update_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:24 BDT" name="test_update_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:26 BDT" depends-on-methods="api.tests.DDBookingTests.test_create_bookings" duration-ms="1554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TURNY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RABBANI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-27]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-03-01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Dinner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_bookings -->
+        <test-method signature="test_delete_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:26 BDT" name="test_delete_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:28 BDT" depends-on-methods="api.tests.DDBookingTests.test_update_bookings" duration-ms="1593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MD.BK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65454]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Breakfast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_bookings -->
+        <test-method signature="test_delete_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:28 BDT" name="test_delete_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:29 BDT" depends-on-methods="api.tests.DDBookingTests.test_update_bookings" duration-ms="1462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MD. Mahmud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahamed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-24]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-26]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Snacks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_bookings -->
+        <test-method signature="test_delete_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:29 BDT" name="test_delete_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:31 BDT" depends-on-methods="api.tests.DDBookingTests.test_update_bookings" duration-ms="1533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sabbir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CTO]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65455]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-27]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chips]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_bookings -->
+        <test-method signature="test_delete_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:31 BDT" name="test_delete_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:32 BDT" depends-on-methods="api.tests.DDBookingTests.test_update_bookings" duration-ms="1562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SUMAIYA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RIFAT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[544554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-26]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-02-28]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sweets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_bookings -->
+        <test-method signature="test_delete_bookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.tests.DDBookingTests@40238dd0]" started-at="2026-05-11T23:04:32 BDT" name="test_delete_bookings" data-provider="BookingData" finished-at="2026-05-11T23:04:34 BDT" depends-on-methods="api.tests.DDBookingTests.test_update_bookings" duration-ms="1563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TURNY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RABBANI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026-02-27]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2026-03-01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Dinner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_bookings -->
       </class> <!-- api.tests.DDBookingTests -->
       <class name="api.tests.DDAuthTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:42 BDT" name="setup" finished-at="2026-05-11T09:33:42 BDT" duration-ms="478" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:03:57 BDT" name="setup" finished-at="2026-05-11T23:03:58 BDT" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:44 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:46 BDT" duration-ms="2344" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:03:59 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:02 BDT" duration-ms="2779" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -278,7 +893,7 @@ at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(Cal
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
@@ -322,7 +937,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:46 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:47 BDT" duration-ms="1413" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:02 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:04 BDT" duration-ms="1592" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -376,7 +991,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -415,7 +1030,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:47 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:49 BDT" duration-ms="1430" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:04 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:05 BDT" duration-ms="1615" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -469,7 +1084,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -508,7 +1123,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:49 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:50 BDT" duration-ms="1459" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:05 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:07 BDT" duration-ms="1537" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -562,7 +1177,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -601,7 +1216,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:50 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:52 BDT" duration-ms="1392" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:07 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:08 BDT" duration-ms="1533" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -655,7 +1270,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -694,7 +1309,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:52 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:53 BDT" duration-ms="1416" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:08 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:10 BDT" duration-ms="1535" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -748,7 +1363,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -787,7 +1402,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:53 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:55 BDT" duration-ms="1417" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:10 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:11 BDT" duration-ms="1603" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -841,7 +1456,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -880,7 +1495,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:55 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:56 BDT" duration-ms="1392" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:11 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:13 BDT" duration-ms="1613" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -934,7 +1549,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -973,7 +1588,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:56 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:57 BDT" duration-ms="1453" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:13 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:15 BDT" duration-ms="1574" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1027,7 +1642,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1066,7 +1681,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:57 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:33:59 BDT" duration-ms="1420" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:15 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:16 BDT" duration-ms="1603" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1120,7 +1735,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1159,7 +1774,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:33:59 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:00 BDT" duration-ms="1381" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:16 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:18 BDT" duration-ms="1503" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1221,7 +1836,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1260,7 +1875,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:00 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:02 BDT" duration-ms="1427" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:18 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:19 BDT" duration-ms="1549" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1314,7 +1929,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1353,7 +1968,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:02 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:03 BDT" duration-ms="1388" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:19 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:21 BDT" duration-ms="1513" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1407,7 +2022,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1446,7 +2061,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:03 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:04 BDT" duration-ms="1401" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:21 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:22 BDT" duration-ms="1511" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1500,7 +2115,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1539,7 +2154,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:04 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:06 BDT" duration-ms="1434" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:22 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:24 BDT" duration-ms="1516" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1593,7 +2208,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1632,7 +2247,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:06 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:07 BDT" duration-ms="1450" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:24 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:25 BDT" duration-ms="1525" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1686,7 +2301,7 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1725,7 +2340,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:07 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:09 BDT" duration-ms="1429" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:25 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:27 BDT" duration-ms="1562" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1770,7 +2385,7 @@ error: object has missing required properties (["token"])
 
   Actual: {"reason":"Bad credentials"}
 
-at java.base/jdk.internal.reflect.GeneratedConstructorAccessor123.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.GeneratedConstructorAccessor124.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1778,10 +2393,10 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at jdk.internal.reflect.GeneratedMethodAccessor204.invoke(Unknown Source)
+at jdk.internal.reflect.GeneratedMethodAccessor199.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
@@ -1815,7 +2430,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:09 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:10 BDT" duration-ms="1411" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:27 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:28 BDT" duration-ms="1540" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1860,7 +2475,7 @@ error: object has missing required properties (["token"])
 
   Actual: {"reason":"Bad credentials"}
 
-at java.base/jdk.internal.reflect.GeneratedConstructorAccessor123.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.GeneratedConstructorAccessor124.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1868,10 +2483,10 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at jdk.internal.reflect.GeneratedMethodAccessor204.invoke(Unknown Source)
+at jdk.internal.reflect.GeneratedMethodAccessor199.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
@@ -1905,7 +2520,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:10 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:12 BDT" duration-ms="1382" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:28 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:30 BDT" duration-ms="1511" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1950,7 +2565,7 @@ error: object has missing required properties (["token"])
 
   Actual: {"reason":"Bad credentials"}
 
-at java.base/jdk.internal.reflect.GeneratedConstructorAccessor123.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.GeneratedConstructorAccessor124.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1958,10 +2573,10 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at jdk.internal.reflect.GeneratedMethodAccessor204.invoke(Unknown Source)
+at jdk.internal.reflect.GeneratedMethodAccessor199.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
@@ -1995,7 +2610,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:12 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:13 BDT" duration-ms="1413" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:30 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:32 BDT" duration-ms="1570" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2040,7 +2655,7 @@ error: object has missing required properties (["token"])
 
   Actual: {"reason":"Bad credentials"}
 
-at java.base/jdk.internal.reflect.GeneratedConstructorAccessor123.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.GeneratedConstructorAccessor124.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2048,10 +2663,10 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at jdk.internal.reflect.GeneratedMethodAccessor204.invoke(Unknown Source)
+at jdk.internal.reflect.GeneratedMethodAccessor199.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
@@ -2085,7 +2700,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:13 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:14 BDT" duration-ms="1418" status="FAIL">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:32 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:33 BDT" duration-ms="1636" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2130,7 +2745,7 @@ error: object has missing required properties (["token"])
 
   Actual: {"reason":"Bad credentials"}
 
-at java.base/jdk.internal.reflect.GeneratedConstructorAccessor123.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.GeneratedConstructorAccessor124.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2138,10 +2753,10 @@ at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.jav
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at jdk.internal.reflect.GeneratedMethodAccessor204.invoke(Unknown Source)
+at jdk.internal.reflect.GeneratedMethodAccessor199.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
@@ -2175,7 +2790,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUser -->
-        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@53fd0d10]" started-at="2026-05-11T09:34:14 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T09:34:16 BDT" duration-ms="1432" status="PASS">
+        <test-method signature="testLoginUser(java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDAuthTests@62ef27a8]" started-at="2026-05-11T23:04:33 BDT" name="testLoginUser" data-provider="AuthData" finished-at="2026-05-11T23:04:35 BDT" duration-ms="1567" status="PASS">
           <params>
             <param index="0">
               <value>
